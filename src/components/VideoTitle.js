@@ -5,10 +5,10 @@ const VideoTitle = ({title,overview}) => {
        <h1 className=" text-2xl md:text-6xl font-bold ">{title}</h1>
       <p className=" hidden md:inline-block  py-6 text-lg w-3/4">{overview}</p>
       <div className="my-4 md:m-0">
-      <button className="bg-white  text-black py-1 px-3 md:px-4 py-2.5 text-xl  rounded-lg hover:bg-opacity-80">
+      <button className="bg-white  text-black py-1 px-3 md:px-8 py-2 text-xl  rounded-lg hover:bg-opacity-80">
           ▶ Play
         </button>
-        <button className=" hidden md:inline-block mx-2 bg-gray-500 text-white p-2.5 px-6 text-xl bg-opacity-50 rounded-lg hover:bg-opacity-25">
+        <button className=" hidden md:inline-block mx-2 bg-gray-500 text-white  px-9 py-2 text-xl bg-opacity-50 rounded-lg hover:bg-opacity-25">
           More Info
         </button>
       </div>
