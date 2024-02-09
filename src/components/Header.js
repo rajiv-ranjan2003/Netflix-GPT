@@ -63,10 +63,12 @@ const handleLanguageChange=(e)=>{
         }>{lang.name}
         </option>)}
       </select>)}
-      <button className="py-2 px-4  font-bold text-lg text-white rounded-lg mx-4 my-2" onClick={handleGpt}>{showGptSearch? "Homepage":"GptSearch"}</button>
-      <img  className=" hidden md:block w-12 h-12" alt="usericon" src= "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e"
+      <button className="py-2 px-4  font-bold text-lg text-black rounded-lg mx-4 bg-white mr-11 my-2" onClick={handleGpt}>{showGptSearch? "Homepage":"GptSearch"}</button>
+      <div className="flex flex-col">
+      <img  className=" hidden md:block w-12 h-12 " alt="usericon" src= "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e"
      />
-     <button onClick={handleSignOut} className="font-bold text-white ">(Sign Out)</button>
+     <button onClick={handleSignOut} className="font-normal text-white family bg-transparent text-center hover:underline ">Sign Out</button>
+     </div>
      </div>
      )} 
     </div>
